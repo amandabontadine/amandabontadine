@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Projetos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Início</a></li>
+                <li><a href="{{ url_for('projects') }}"> Meus Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Meus Projetos</h1>
+        <ul>
+            <li>
+                <h2>API de Gerenciamento de Tarefas
+</h2>
+                <p>Desenvolvi uma API RESTful para um sistema de gerenciamento de tarefas, projetada para ajudar equipes a organizar e acompanhar suas atividades diárias. A API foi construída com Node.js e Express, utilizando um banco de dados MongoDB para armazenar informações sobre tarefas, projetos e usuários.</p>
+            </li>
+            <li>
+                <h2>API de Reserva de Hotéis</h2>
+                <p>Desenvolvi uma API para um sistema de reserva de hotéis, com o objetivo de fornecer uma plataforma robusta e escalável para gerenciar reservas de quartos, disponibilidade e pagamentos. A API foi implementada em Python usando o framework Django e um banco de dados PostgreSQL para garantir integridade e escalabilidade dos dados.</p>
+            </li>
+            <!-- Adicione mais projetos conforme necessário -->
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Amanda Scaranello Bontadine. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

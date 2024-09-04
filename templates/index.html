@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Início</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Início</a></li>
+                <li><a href="{{ url_for('projects') }}"> Meus Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bem-vindo ao meu portfólio!</h1>
+        <img src="{{ url_for('static', filename='amandafofa.jpeg') }}" alt="Perfil" class="profile-img">
+        <p>Atualmente estou no 4º semestre do curso de Ciência da Computação na Unimax, onde estou aprofundando meus conhecimentos em tecnologia e desenvolvimento de software. No campo profissional, trabalho na Senior Sistemas como analista de suporte para sistemas ERP, onde sou responsável por garantir o funcionamento eficiente e a resolução de problemas relacionados aos sistemas que gerencio.</p>
+        <p> Além disso, já acumulei experiência significativa atuando como analista de sistemas para APIs, o que me proporcionou uma visão abrangente sobre integração e desenvolvimento de soluções tecnológicas. Estou sempre em busca de novos desafios e oportunidades para aplicar minhas habilidades e continuar crescendo na área da computação.</p>
+    </main>
+</body>
+</html>
